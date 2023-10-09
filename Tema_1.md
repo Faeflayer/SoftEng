@@ -32,41 +32,61 @@
 ![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/1.png)
 
 ## Лабораторная работа №2
-
-
+### Настройка
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/2.png)
 ## Лабораторная работа №3
-
-  
+### Создание нового репозитория
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/3.png)  
 ## Лабораторная работа №4
-
-
+### Подготовка файлов
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/4.png)
 ## Лабораторная работа №5
-
-
+### Фиксация изменений
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/5.png)
 ## Лабораторная работа №6
-
-
+### Подключение к удаленному репозиторию
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/6.png)
 ## Лабораторная работа №7
-
-
+### Ветвление
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/7.png)
 ## Лабораторная работа №8
-
-
+### Особенности применения «Фетч»
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/8.png)
 ## Лабораторная работа №9
-
-
+###  Удаление файлов, веток, локальных и удалённых репозиториев
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/9.png)
 ## Лабораторная работа №10
-
+### Отслеживание изменений в коммитах
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/10.png)
 ## Лабораторная работа №11
-
+###  Возвращение файла к предыдущему (определенному) состоянию
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/11.png)
 ## Лабораторная работа №12
-
+### Возвращение к предыдущему коммиту
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/12..png)
 ## Лабораторная работа №13
-
+### Исправление коммита
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/13..png)
 ## Лабораторная работа №14
-
+### Разрешение конфликтов при слиянии
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/14..png)
 ## Лабораторная работа №15
-
+### Настройка .gitignore
+### Результат.
+![Меню](https://github.com/Faeflayer/SoftEng/blob/%D0%A2%D0%B5%D0%BC%D0%B0_1/pic/15..png)
 
 ## Общие выводы по теме
 - Развернутый вывод
