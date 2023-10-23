@@ -62,7 +62,7 @@ print(X + Y)
 X = 'Hello'
 print(bool(X))
 
-Y = 29
+Y = 142
 print(float(Y))
 
 Z = None
