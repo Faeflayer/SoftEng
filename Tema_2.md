@@ -143,7 +143,7 @@ print(sentence[:5])
 print (0==1)
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.1.png)
 
 ## Выводы
 
@@ -157,7 +157,7 @@ a,b,c=1,2,3
 print (a,b,c)
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.2.png)
 
 ## Выводы
 
@@ -171,7 +171,7 @@ number = input('Введите число:')
 print(int(number))
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.3.png)
 
 
 ## Выводы
@@ -185,7 +185,7 @@ x= 'Try'
 print(x*11)
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.4.png )
 
 ## Выводы
 
@@ -197,7 +197,7 @@ day = 1; month = 'января'; year = 1999
 print(f"Сегодня {day} {month} {year}.", end = " Всего хорошего!")
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.5.png)
 
 ## Выводы
 
@@ -210,7 +210,7 @@ word = 'my'
 print ('Hello ',word,' World')
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.6.png)
 
 ## Выводы
 
@@ -222,7 +222,7 @@ print ('Hello ',word,' World')
 print(len('Hello World'))
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.7.png )
 
 ## Выводы
 
@@ -235,7 +235,7 @@ hello = 'HELLO WORLD '
 print(hello.lower())
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.8.png )
 
 ## Выводы
 
@@ -248,7 +248,7 @@ rounded_number = round(number, 1)
 print(rounded_number) 
 ```
 ### Результат.
-![Меню]()
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.9.png)
 
 ## Выводы
 
@@ -263,7 +263,7 @@ print('Слово начинается с буквы: ',word[0] )
 ```
 
 ### Результат.
-![Меню]()
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_2/pics/.10.png)
 
 ## Выводы
 
