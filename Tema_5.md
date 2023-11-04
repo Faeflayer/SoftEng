@@ -27,7 +27,7 @@ set_2 = {'1','2','3','4','5','6','7','8','9'}
 print (set_2-set_1)
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/1.png)
 
 ## Лабораторная работа №2
 ### 
@@ -46,7 +46,8 @@ for i in range(1,5):
 print(a)
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/2.1.png )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/2.2.png )
 
 ## Лабораторная работа №3
 ### 
@@ -56,7 +57,7 @@ list[0], list[-1] = list[-1], list[0]
 print(list)
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/3.png )
 
 ## Лабораторная работа №4
 ### 
@@ -65,7 +66,7 @@ a = [1,2,3,4,5,6,7,8,9]
 print(a[3:6])
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/4.png)
 
 ## Лабораторная работа №5
 ### 
@@ -77,7 +78,7 @@ print(useless([-12.53,-11,-1,0,-33,83,329,11.22,47]))
 print(useless([-23.33,12,1,23,87,82.11,2.22,9,11.22,-1,-2]))
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/5.png )
 
 ## Лабораторная работа №6
 ### 
@@ -89,7 +90,7 @@ print('Вася -', vasya)
 print('Петя -', petya)
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/6.png )
 
 ## Лабораторная работа №7
 ### 
@@ -101,7 +102,7 @@ a.pop(0)
 print('Отсортированный список без наименьшего элемента:\n',a)
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/7.png)
 
 ## Лабораторная работа №8
 ### 
@@ -120,7 +121,7 @@ if __name__ == '__main__':
     print(result)
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/8.png )
 
 ## Лабораторная работа №9
 ### 
@@ -142,7 +143,7 @@ if __name__ == '__main__':
     superset({90,100}, {3,5})
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/9.png )
 
 ## Лабораторная работа №10
 ### 
@@ -151,7 +152,7 @@ my_list = [2,5,8,3]
 print(my_list[::-1])
 ```
 ### Результат.
-![Меню]( )
+![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_5/pics/10.png )
 
 
 
