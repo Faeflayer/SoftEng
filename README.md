@@ -133,6 +133,34 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
 ![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_7/pics/10.png )
 ![Меню](https://github.com/Faeflayer/SoftEng/blob/Tema_7/pics/11.png )
 
+
+
+
+## Самостоятельная работа №1
+###
+
+```python
+with open('text.txt', 'r', encoding='utf-8') as file:
+    text1 = file.read()
+    words = text1.split()
+print(f'Количество слов: {len(words)}')
+
+word_count = {}
+for word in words:
+    word = word.lower()
+    if word in word_count:
+        word_count[word] += 1
+    else:
+        word_count[word] = 1
+
+max_word = max(word_count, key=word_count.get)
+print(f'Самое частое слово: {max_word}, упоминается {word_count[max_word]} раз')
+```
+### Результат.
+![Меню]( )
+
+## Выводы
+
 ## Самостоятельная работа №1
 ###
 
@@ -144,6 +172,27 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
 
 ## Выводы
 
+## Самостоятельная работа №1
+###
+
+```python
+
+```
+### Результат.
+![Меню]( )
+
+## Выводы
+
+## Самостоятельная работа №1
+###
+
+```python
+
+```
+### Результат.
+![Меню]( )
+
+## Выводы
 
 
 ## Общие выводы по теме
