@@ -157,7 +157,8 @@ max_word = max(word_count, key=word_count.get)
 print(f'Самое частое слово: {max_word}, упоминается {word_count[max_word]} раз')
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_7/pics/selftext.png)
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_7/pics/self1.png)
 
 ## Выводы
 
@@ -184,7 +185,7 @@ with open('text.txt', 'r') as file:
 print("Input file contains:", letter_count, "letters", word_count, "words", line_count, "lines")
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_7/pics/self3.png)
 
 ## Выводы
 
@@ -212,7 +213,7 @@ for w in forbidden_words:
 print(msg)
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_7/pics/self4.png)
 
 ## Выводы
 
@@ -235,7 +236,8 @@ with open('text.txt', 'r') as file:
 print(text_to_read)
 ```
 ### Результат.
-![Меню]( )
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_7/pics/self5.png)
+![Меню]( https://github.com/Faeflayer/SoftEng/blob/Tema_7/pics/self6.png)
 
 ## Выводы
 
