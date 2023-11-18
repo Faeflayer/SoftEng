@@ -137,7 +137,7 @@ with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
 
 
 ## Самостоятельная работа №1
-###
+### Найдите в интернете любую статью (объем статьи не менее 200 слов), скопируйте ее содержимое в файл и напишите программу, которая считает количество слов в текстовом файле и определит самое часто встречающееся слово. Результатом выполнения задачи будет: скриншот файла со статьей, листинг кода, и вывод в консоль, в котором будет указана вся необходимая информация.
 
 ```python
 with open('text.txt', 'r', encoding='utf-8') as file:
@@ -161,33 +161,78 @@ print(f'Самое частое слово: {max_word}, упоминается {
 
 ## Выводы
 
-## Самостоятельная работа №1
-###
+## Самостоятельная работа №3
+### Имеется файл input.txt с текстом на латинице. Напишите программу, которая выводит следующую статистику по тексту: количество букв латинского алфавита; число слов; число строк.
+### Текст в файле:
+### Beautiful is better than ugly. Explicit is better than implicit. Simple is better than complex. Complex is better than complicated.
+### Ожидаемый результат:
+### Input file contains: 108 letters 20 words 4 lines
 
 ```python
+line_count = 0
+word_count = 0
+letter_count = 0
 
+with open('text.txt', 'r') as file:
+    for line in file:
+        line_count += 1
+        words = line.split()
+        word_count += len(words)
+        for word in words:
+            letter_count += len(word)
+
+print("Input file contains:", letter_count, "letters", word_count, "words", line_count, "lines")
 ```
 ### Результат.
 ![Меню]( )
 
 ## Выводы
 
-## Самостоятельная работа №1
-###
+## Самостоятельная работа №4
+### Напишите программу, которая получает на вход предложение, выводит его в терминал, заменяя все запрещенные слова звездочками * (количество звездочек равно количеству букв в слове). Запрещенные слова, разделенные символом пробела, хранятся в текстовом файле input.txt. Все слова в этом файле записаны в нижнем регистре. Программа должна заменить запрещенные слова, где бы они ни встречались, даже в середине другого слова. Замена производится независимо от регистра: если файл input.txt содержит запрещенное слово exam, то слова exam, Exam, ExaM, EXAM и exAm должны быть заменены на ****.
+### Запрещенные слова:
+### hello email python the exam wor is
+### Предложение для проверки:
+### Hello, world! Python IS the programming language of thE future. My EMAIL is… PYTHON is awesome!!!!
+### Ожидаемый результат:
+### *****, ***ld! ****** ** *** programming language of *** future. My ****** **…. ****** ** awesome!!!!
 
 ```python
+import re
 
+forbidden_words: list[str] = []
+with open("text.txt", "r") as f:
+
+    forbidden_words.extend(f.read().split())
+
+    msg = "Hello, world! Python IS the programming language of thE future. My EMAIL is… PYTHON is awesome!!!!"
+
+for w in forbidden_words:
+    msg = re.sub(w, "*" * len(w), msg, flags=re.IGNORECASE)
+print(msg)
 ```
 ### Результат.
 ![Меню]( )
 
 ## Выводы
 
-## Самостоятельная работа №1
-###
+## Самостоятельная работа №5
+### Самостоятельно придумайте и решите задачу, которая будет взаимодействовать с текстовым файлом.
 
 ```python
+with open("text.txt", "r") as file:
+    text = file.read()
 
+words = text.split()
+
+if len(words) < 30:
+    with open('text.txt', 'w') as file:
+        file.write ('Nothing')
+
+with open('text.txt', 'r') as file:
+    text_to_read = file.read()
+
+print(text_to_read)
 ```
 ### Результат.
 ![Меню]( )
